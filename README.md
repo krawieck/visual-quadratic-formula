@@ -2,14 +2,48 @@
 
 ## Controls
 
-UP_ARROW - DOWN_ARROW
-c++      - c--
+UP ARROW - c++
 
-W    - S
-C+=5 - C-=5
+DOWN ARROW - c--
 
-LEFT_ARROW - RIGHT_ARROW
-b++        - b--
+--
 
-A    - D
-B+=5 - B-=5
+W - C+=5
+
+S - C-=5
+
+--
+
+LEFT ARROW - b++
+
+RIGHT ARROW - b--
+
+--
+
+A - B+=5
+
+D - B-=5# Visual Square function
+
+## Controls
+
+UP ARROW - c++
+
+DOWN ARROW - c--
+
+--
+
+W - C+=5
+
+S - C-=5
+
+--
+
+LEFT ARROW - b++
+
+RIGHT ARROW - b--
+
+--
+
+A - B+=5
+
+D - B-=5
