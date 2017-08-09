@@ -1,25 +1,7 @@
 # Visual Square function
 
-## Controls
+I didn't what b does so I made this live visualization to better see how it works.
 
-UP ARROW - c++
+### Controls
 
-DOWN ARROW - c--
-
---
-
-W - C+=5
-
-S - C-=5
-
---
-
-LEFT ARROW - b++
-
-RIGHT ARROW - b--
-
---
-
-A - B+=5
-
-D - B-=5
+Just move the sliders.
