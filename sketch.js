@@ -5,19 +5,19 @@ function setup() {
 	
 
 	aSlider = createSlider(-100, 100, 0.5);
-	aSlider.position(25,15);
+	aSlider.position(25, 15);
 	bSlider = createSlider(-100, 100, 0);
-	bSlider.position(25,45);
+	bSlider.position(25, 45);
 	cSlider = createSlider(-1000, 1000, 0);
-	cSlider.position(25,75);
+	cSlider.position(25, 75);
 	
 }
 
 function draw() {
 	background(255, 255, 255);
 	stroke(220);
-	line(375,0,375,750);
-	line(0,375,750,375);
+	line(375, 0, 375, 750);
+	line(0, 375, 750, 375);
 
 	// f(x) = 2x^2 + 2x - 4
 	var a = aSlider.value();
@@ -29,9 +29,11 @@ function draw() {
 
 	for(x=-750;x<750;x++) {
 		var y = -a*Math.pow(x-p, 2)+q;
+		line(x+375, (-a*Math.pow(x-p, 2)+q)+375, x+376, (-a*Math.pow(x+1-p, 2)+q) + 375)
+		
 		fill(0);
 		stroke(0);
-		point(x+375,y/8+375,3);
+		// point(x+375,y/8+375,3);
 	}
 
 	text("a: " + a, 1, 15);
