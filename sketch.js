@@ -10,15 +10,15 @@ function draw() {
 	line(375, 0, 375, 750)
 	line(0, 375, 750, 375)
 
-	var a = Number(document.querySelector('#input-a').value) / 100
-	var b = Number(document.querySelector('#input-b').value)
-	var c = Number(document.querySelector('#input-c').value)
-	var d = Math.pow(b, 2) - 4 * -a * c
-	var p = -((b / 2) * -a)
-	var q = -((d / 4) * -a)
+	const a = Number(document.querySelector('#input-a').value) / 100
+	const b = Number(document.querySelector('#input-b').value)
+	const c = Number(document.querySelector('#input-c').value)
+	const d = Math.pow(b, 2) - 4 * -a * c
+	const p = -((b / 2) * -a)
+	const q = -((d / 4) * -a)
 
-	for (x = -750; x < 750; x++) {
-		var y = -a * Math.pow(x - p, 2) + q
+	for (let x = -380; x < 380; x++) {
+		// const y = -a * Math.pow(x - p, 2) + q
 		line(x + 375, -a * Math.pow(x - p, 2) + q + 375, x + 376, -a * Math.pow(x + 1 - p, 2) + q + 375)
 
 		fill(0)
@@ -40,7 +40,7 @@ function windowResized() {
 }
 
 function canvPos() {
-	var x = (windowWidth - width) / 2
-	var y = 20
+	const x = (windowWidth - width) / 2
+	const y = 20
 	canv.position(x, y)
 }
