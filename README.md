@@ -1,7 +1,7 @@
-# Visual Square function
+# Visual Quadratic Formula
 
-I didn't what b does so I made this live visualization to better see how it works.
+I didn't know what b does in quadratic formula so I made this live visualization to better see how it works.
 
 ### Controls
 
-Just move the sliders.
+Move the sliders
