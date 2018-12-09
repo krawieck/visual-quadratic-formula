@@ -5,3 +5,5 @@ I didn't know what b does in quadratic formula so I made this live visualization
 ### Controls
 
 Move the sliders
+
+ProTip: try to click on the slider and use the arrow keys 
